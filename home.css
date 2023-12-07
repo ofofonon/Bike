@@ -1,0 +1,373 @@
+@font-face {
+    font-family: 'Gilroy-Bold ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Heavy ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Heavy ☞'), url('Gilroy-Heavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Light ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Medium ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Regular ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        
+        border-radius: 5px;
+        
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(59, 59, 59); 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(84, 83, 83); 
+        opacity: 90%;
+      }
+
+
+
+
+
+
+
+
+body{
+    background-color: rgba(28, 27, 27, 0.968);
+    font-family: cursive;
+    overflow-x: hidden;
+}
+
+
+.nav{
+    height: 70px;
+    position: fixed;
+    background-image: linear-gradient(to bottom, rgba(28, 27, 27, 0.968), transparent);
+    z-index: 10;
+}
+
+.navlist{
+    color: white;
+    margin-right: 14%;
+}
+
+.navlist ul{
+    display: inline-block;
+}
+
+.navlist li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 110%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    margin: 5px;
+    width: fit-content;
+    text-decoration: none;
+   background-image: linear-gradient(to right,  rgb(28, 27, 27), transparent);
+    transition:   0.3s;
+    box-shadow: -5px 0px 10px black;
+}
+
+.navlist a{
+    color: white;
+}
+
+
+.navlist li:hover{
+   background-color:  rgb(28, 27, 27) ;
+   box-shadow: 2px 2px 10px black, -2px 2px 10px black;
+}
+
+
+
+
+
+
+.top{
+    height: 470px;
+   background-image: url(images/back3.jpg);
+   background-size: cover;
+   background-position: center;
+
+}
+
+.top2{
+    height: 470px;
+  
+    background-image: linear-gradient(to top, rgba(28, 27, 27, 0.968), transparent); 
+}
+
+.yt{
+    height: 340px;
+    background-color: rgba(223, 146, 5, 0.796);
+    position: absolute;
+    top: 17%;
+    left: 12%;
+    border-radius: 30px;
+    z-index: 2;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.891);
+}
+.row{
+    width: 100%;
+}
+
+.row a{
+    text-decoration: none;
+}
+
+.lit{
+    height: 300px;
+  margin-left: 90px;
+    background-color:  rgba(28, 27, 27, 0.968);
+    margin-top: 65px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black, -5px 5px 10px black;
+   transition: 0.2s;
+}
+
+.lit:hover{
+    transform: scale(1.2,1.2);
+}
+
+.bg{
+    height: 150px;
+    
+    top: 63.5%;
+    z-index: -2;
+    background-image: linear-gradient(to top, transparent, rgba(29, 27, 27, 0.968), transparent);
+    position: absolute;
+}
+
+.yth{
+    font-family: 'Gilroy-Heavy ☞';
+    color: white;
+    font-size: 500%;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+
+.yth2{
+    font-family: 'Gilroy-Medium ☞';
+    color: white;
+ 
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+.bbr{
+    margin-left: 30px;
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    background-color: rgba(29, 27, 27, 0.968) ;
+    box-shadow: 3px 3px 3px  rgba(29, 27, 27, 0.968);
+}
+
+.yth23{
+    font-family: 'Gilroy-Medium ☞';
+    color: white;
+ margin-top: 10px;
+  text-align: center;
+
+}
+
+.try{
+    font-family: 'Gilroy-Medium ☞';
+    color: rgba(223, 146, 5, 0.796);
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.fly{
+    width: 1%;
+    height: 12px;
+    background-color: rgb(36, 35, 35);
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 101%;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-delay: 0.5s;
+    z-index: 20;
+    animation-iteration-count: infinite;
+}
+
+.fly2{
+    width: 2%;
+    height: 24px;
+    background-color:  rgb(36, 35, 35);
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 101%;
+    animation-name: move2;
+    animation-duration: 20s;
+    animation-delay: 1.5s;
+    z-index: 20;
+    animation-iteration-count: infinite;
+}
+
+.fly3{
+    width: 0.5%;
+    height: 6px;
+    background-color:  rgb(36, 35, 35);
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 101%;
+    animation-name: move3;
+    animation-duration: 22s;
+    animation-delay: 2s;
+    z-index: 20;
+    animation-iteration-count: infinite;
+}
+
+.fly4{
+    width: 1%;
+    height: 12px;
+    background-color:  rgb(36, 35, 35);
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left:-2%;
+    animation-name: move4;
+    animation-duration: 14s;
+    animation-delay: 2s;
+    z-index: 20;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes move{
+    from{
+        top: 70%;
+        left: 101%;
+    }
+    to{
+        top: 30%;
+        left: -2%;
+    }
+}
+
+@keyframes move2{
+    from{
+        top: 60%;
+        left: 101%;
+    }
+    to{
+        top: 20%;
+        left: -2%;
+    }
+}
+
+@keyframes move3{
+    from{
+        top: 20%;
+        left: 101%;
+    }
+    to{
+        top: 60%;
+        left: -2%;
+    }
+}
+
+@keyframes move4{
+    from{
+        top: 15%;
+        left: -2%;
+    }
+    to{
+        top: 70%;
+        left: 101%;
+    }
+}
+
+.trs{
+    margin-top: 150px;
+    color: rgba(223, 146, 5, 0.796);
+    font-family: 'Gilroy-Bold ☞';
+    font-size: 300%;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+.about{
+    background-image: url(images/back4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-position: right;
+}
+
+.ab2{
+width: 100%;
+height: 350px;
+background-image: linear-gradient(to right,  rgb(36, 35, 35), rgb(36, 35, 35), transparent);
+}
+
+.hy{
+    color: white;
+    margin-left: 80px;
+    font-family: 'Gilroy-Medium ☞';
+    line-height: 30px;
+}
+
+.foot{
+    height: 470px;
+    background-image: url(images/back3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 200px;
+}
+
+.shade{
+    width: 100%;
+    height:inherit;
+    background-image: linear-gradient(to bottom,  rgb(36, 35, 35), transparent);
+}

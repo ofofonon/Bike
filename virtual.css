@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(28, 27, 27, 0.968);
+    font-family: cursive;
+    overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+.choose{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(28, 27, 27);
+    position: absolute;
+    bottom: 0;
+}
+
+.eon{
+    height: 120px;
+    background-color: transparent;
+    margin: 15px;
+    display: flex;
+    float: left;
+    border-radius: 10px;
+    border: 5px solid rgba(223, 146, 5, 0.796);
+    transition: 0.2s;
+    color: rgba(223, 146, 5, 0.796);
+    cursor: pointer;
+}
+
+.eon:hover{
+    background-color: rgb(223, 147, 5);
+    color: white;
+}
+
+.electric{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(28, 27, 27);
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.elc2{
+
+    height: 135px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: orange;
+}

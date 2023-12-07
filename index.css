@@ -1,0 +1,89 @@
+body{
+    background-image: url(images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    font-family: cursive;
+    background-size: cover;
+
+}
+
+
+.log{
+    height: 450px;
+ 
+    margin-top: 100px;
+    margin-left: 32%;
+    border-radius: 37px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.891);
+   
+}
+
+.logh{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+[type="email"]{
+  margin-left: 15%;
+  margin-top: 20px;
+  height: 60px;
+  border-radius: 30px;
+  width: 70%;
+  border:  2px solid white;
+  background-color: transparent;
+  padding-left: 35px;
+  color: white;
+}
+
+
+
+[type="password"]{
+    margin-left: 15%;
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 30px;
+    width: 70%;
+    border:  2px solid white;
+    background-color: transparent;
+    padding-left: 35px;
+    color: white;
+  }
+
+  [type="checkbox"]{
+    background-color: transparent;
+    color: transparent;
+  margin-left: 80px;
+  margin-top: 20px;
+  border: 1px solid orange;
+  }
+
+
+  .button{
+    margin-left: 28%;
+    margin-top: 40px;
+    height: 60px;
+    border-radius: 40px;
+    width: 45%;
+    border:  none;
+    background-color: red;
+    color: white;
+    background-image: linear-gradient(to right, red, orange);
+  
+  }
+
+  .button:hover{
+ 
+    background-image: linear-gradient(to right, orange, red);
+    border: 3px solid white;
+  }
+
+  ::-webkit-input-placeholder{
+    color: white;
+  }
+  .tnc{
+    color: rgba(249, 249, 35, 0.772);
+    position: absolute;
+    bottom: 8%;
+    left: 24%;
+  }
+
