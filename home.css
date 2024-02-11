@@ -223,7 +223,7 @@ body{
 }
 
 .fly{
-    width: 1%;
+    width: 12px;
     height: 12px;
     background-color: rgb(36, 35, 35);
     border-radius: 50%;
@@ -238,7 +238,7 @@ body{
 }
 
 .fly2{
-    width: 2%;
+    width: 24px;
     height: 24px;
     background-color:  rgb(36, 35, 35);
     border-radius: 50%;
@@ -246,14 +246,14 @@ body{
     top: 60%;
     left: 101%;
     animation-name: move2;
-    animation-duration: 20s;
+    animation-duration: 16s;
     animation-delay: 1.5s;
     z-index: 20;
     animation-iteration-count: infinite;
 }
 
 .fly3{
-    width: 0.5%;
+    width: 6px;
     height: 6px;
     background-color:  rgb(36, 35, 35);
     border-radius: 50%;
@@ -268,7 +268,7 @@ body{
 }
 
 .fly4{
-    width: 1%;
+    width: 12px;
     height: 12px;
     background-color:  rgb(36, 35, 35);
     border-radius: 50%;
@@ -302,7 +302,7 @@ body{
     }
     to{
         top: 20%;
-        left: -2%;
+        left: -4%;
     }
 }
 
